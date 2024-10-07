@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+header, main {
+    display: block;
+    width: 100%;
+}
+
+header {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #141414;
+}
+
+header img {
+    max-width: 150px;
+    height: auto;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #00a8ff;
+    margin: 20px 0;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #ccc;
+    margin-bottom: 30px;
+}
+
+header button {
+    background-color: #00a8ff;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+header button:hover {
+    background-color: #007bb5;
+}
+
+main {
+    padding: 50px 20px;
+}
+
+#course-content {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#course-content h2 {
+    font-size: 2em;
+    color: #00a8ff;
+    margin-bottom: 20px;
+}
+
+#course-content p {
+    font-size: 1.2em;
+    color: #ccc;
+    margin-bottom: 40px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.modules-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.module {
+    background-color: #1c1c1c;
+    border-radius: 10px;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    color: #00a8ff;
+    font-size: 1.1em;
+    text-align: center;
+    border: 2px solid #2a2a2a;
+}
+
+.module span {
+    font-weight: bold;
+}
+
+#professional-challenges {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#professional-challenges h2 {
+    font-size: 2.2em;
+    color: #00a8ff;
+    margin-bottom: 30px;
+}
+
+#professional-challenges img {
+    max-width: 80%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+#professional-challenges p {
+    font-size: 1.2em;
+    color: #ccc;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#transform-world {
+    position: relative;
+    padding: 0;
+    margin-top: 50px;
+    height: 400px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.transform-world-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    color: #00a8ff;
+    z-index: 1;
+    max-width: 400px;
+    position: relative;
+    font-size: 50px;
+}
+
+#transform-world img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+footer {
+    background-color: #141414;
+    padding: 20px 20px;
+    text-align: center;
+    color: #fff;
+}
+
+footer img.dio-logo {
+    max-width: 150px;
+    margin-bottom: 10px;
+}
+
+footer p {
+    font-size: 1em;
+    color: #ccc;
+}
+
+footer a {
+    color: #00a8ff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
